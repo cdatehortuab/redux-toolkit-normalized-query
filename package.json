@@ -1,0 +1,42 @@
+{
+  "name": "redux-toolkit-normalized-query",
+  "version": "0.0.0-development",
+  "description": "Redux Toolkit Normalized Query is a powerful data fetching and caching tool. It is designed to simplify common cases for loading data in a web application, eliminating the need to hand-write data fetching & caching logic yourself. It mixes the benefits of a normalized state with the caching logic of RTK Query.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "starter",
+    "toolkit",
+    "reducer",
+    "slice",
+    "immer",
+    "immutable",
+    "redux-toolkit",
+    "normalized"
+  ],
+  "contributors": [
+    {
+      "name": "Cristian Atehortua",
+      "url": "https://github.com/cdatehortuab"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdatehortuab/redux-toolkit-normalized-query.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^21.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
